@@ -21,8 +21,9 @@ body {
     background-color: rgba(0, 0, 0, 0.925);
     color: #ffffff;
     flex-direction: column;
-    width: 60vw;
+    width: 100vw;
     border-radius: 10px;
+    height: 100%;
 
 
 
@@ -179,4 +180,15 @@ p{
     text-decoration-color:skyblue ;
     text-decoration-thickness: 2px;
     text-decoration-style:wavy;
+}
+@media (max-width:1300px){
+    .container{
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+        
+    }
+    .content{
+        margin-top: 100px;
+    }
 }
